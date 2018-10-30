@@ -1,0 +1,9 @@
+﻿@using System.Globalization
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Current culture: @CultureInfo.CurrentCulture</p>
+@Html.ActionLink("Privacy", "Privacy", "Home")
